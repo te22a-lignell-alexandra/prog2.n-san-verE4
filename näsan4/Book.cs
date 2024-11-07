@@ -1,27 +1,27 @@
 class Book
 {
-    private string Name;
-    private int Pages;
-    private int CurrentPage = 0;
+    private string name;
+    private int pages;
+    private int currentPage = 0;
     public Book(string n, int p)
     {
-        n = Name;
-        p = Pages;
+        name = n;
+        pages = p;
     }
     public string GetName()
     {
-        return Name;
+        return name;
     }
     public int GetPages()
     {
-        return Pages;
+        return pages;
     }
     public void TurnPage()
     {
-        CurrentPage++;
+        currentPage++;
     }
     public int GetCurrentPage()
     {
-        return CurrentPage;
+        return currentPage;
     }
 }

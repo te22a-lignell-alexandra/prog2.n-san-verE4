@@ -1,9 +1,35 @@
-﻿Book book1 = new() {Name = ":)", Pages = 2};
-Book book2 = new() {Name = ":I", Pages = 4};
-Book book3 = new() {Name = ":(", Pages = 6};
+﻿List<Rock> Rocks = new();
 
-Console.WriteLine(book1.CurrentPage);
-book1.TurnPage();
-Console.WriteLine(book1.CurrentPage);
+System.Console.WriteLine("How many rocks?");
+string ans = Console.ReadLine();
+int number = 0;
+bool valid = int.TryParse(ans, out number);
 
+while (valid == false)
+{
+    System.Console.WriteLine("no");
+    ans = Console.ReadLine();
+    valid = int.TryParse(ans, out number);
+}
+
+for (int i = 0; i < number; i++)
+{
+    string weight = Console.ReadLine();
+    int weightnumber = 0;
+    valid = int.TryParse(ans, out number);
+
+    while (valid == false)
+    {
+        System.Console.WriteLine("no");
+        ans = Console.ReadLine();
+        valid = int.TryParse(ans, out number);
+    }
+    Rock rock = new(weightnumber);
+    Rocks.Add(rock);
+}
+
+foreach (Rock rock in Rocks)
+{
+    System.Console.WriteLine(rock.GetWeight());
+}
 Console.ReadLine();
