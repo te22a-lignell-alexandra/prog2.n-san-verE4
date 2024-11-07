@@ -1,0 +1,15 @@
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\bin\Debug\net8.0\näsan4.exe
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\bin\Debug\net8.0\näsan4.deps.json
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\bin\Debug\net8.0\näsan4.runtimeconfig.json
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\bin\Debug\net8.0\näsan4.dll
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\bin\Debug\net8.0\näsan4.pdb
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.AssemblyInfoInputs.cache
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.AssemblyInfo.cs
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.csproj.CoreCompileInputs.cache
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.sourcelink.json
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.dll
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\refint\näsan4.dll
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.pdb
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\näsan4.genruntimeconfig.cache
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.näsanöverE4\näsan4\obj\Debug\net8.0\ref\näsan4.dll
