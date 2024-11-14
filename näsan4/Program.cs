@@ -1,8 +1,17 @@
-﻿List<Rock> Rocks = new();
+﻿using System.Runtime.InteropServices;
 
-Worker man = new("Steve", 56);
+List<Rock> Rocks = new();
 
-bool valid;
+// Worker man = new("Steve", 56);
+// BlueCollar guy = new("Fred", 60);
+// WhiteCollar dude = new("Dan", 34);
+
+// System.Console.WriteLine(man.GetName());
+// System.Console.WriteLine(guy.GetAge());
+// dude.SetWage(500000000);
+// System.Console.WriteLine(dude.GetWage());
+
+bool valid; //rocks?
 int number = 0;
 do 
 {
