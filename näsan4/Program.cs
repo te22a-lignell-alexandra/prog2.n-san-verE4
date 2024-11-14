@@ -1,29 +1,25 @@
 ﻿List<Rock> Rocks = new();
 
-System.Console.WriteLine("How many rocks?");
-string ans = Console.ReadLine();
+bool valid;
 int number = 0;
-bool valid = int.TryParse(ans, out number);
-
-while (valid == false)
+do 
 {
-    System.Console.WriteLine("no");
-    ans = Console.ReadLine();
+    System.Console.WriteLine("rocks?");
+    string ans = Console.ReadLine();
     valid = int.TryParse(ans, out number);
-}
+} while (valid == false);
 
 for (int i = 0; i < number; i++)
 {
-    string weight = Console.ReadLine();
     int weightnumber = 0;
-    valid = int.TryParse(ans, out number);
-
-    while (valid == false)
+    do 
     {
-        System.Console.WriteLine("no");
-        ans = Console.ReadLine();
-        valid = int.TryParse(ans, out number);
-    }
+        System.Console.WriteLine("weigh how much?");
+        string weight = Console.ReadLine();
+        valid = int.TryParse(weight, out weightnumber);
+        
+    } while  (valid == false);
+
     Rock rock = new(weightnumber);
     Rocks.Add(rock);
 }
