@@ -1,5 +1,7 @@
 ﻿List<Rock> Rocks = new();
 
+Worker man = new("Steve", 56);
+
 bool valid;
 int number = 0;
 do 
