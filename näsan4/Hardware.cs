@@ -16,3 +16,4 @@ class Hardware
         return price;
     }
 }
+

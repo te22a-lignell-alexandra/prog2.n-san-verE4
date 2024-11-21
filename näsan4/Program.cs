@@ -41,3 +41,69 @@
 // }
 // Console.ReadLine();
 
+List<Hardware> hardwares = new();
+
+System.Console.WriteLine("hardware? which one?");
+bool yes = false;
+int numAns = 0;
+do
+{
+    System.Console.WriteLine("1. HDD, 2. CPU, 3. GPU");
+    string ans = Console.ReadLine();
+    yes = int.TryParse(ans, out numAns);
+} while (!yes || numAns > 3 || numAns < 1);
+
+if (numAns == 1) MakeAThing("HDD");
+if (numAns == 2) MakeAThing("CPU");
+if (numAns == 3) MakeAThing("GPU");
+
+
+System.Console.WriteLine("\n" + hardwares[0].GetName() + "\t" + hardwares[0]);
+
+
+Console.ReadLine();
+
+
+// metoder
+
+void MakeAThing(string hardware)
+{
+    System.Console.WriteLine("Name?");
+    string name = Console.ReadLine();
+
+    int price = 0;
+    bool good = false;
+    do
+    {
+        System.Console.WriteLine("Price?");
+        string sPrice = Console.ReadLine();
+        good = int.TryParse(sPrice, out price);
+    } while (!good);
+
+    int other = 0;
+    if (hardware == "HDD") System.Console.WriteLine("Max storage?");
+    else if (hardware == "CPU") System.Console.WriteLine("Cores?");
+    else if (hardware == "GPU") System.Console.WriteLine("Fps?");
+    good = false;
+    do
+    {
+        string thing = Console.ReadLine();
+        good = int.TryParse(thing, out other);
+    } while (!good);
+
+    if (hardware == "HDD")
+    {
+        HDD hdd = new(name, price, other);
+        hardwares.Add(hdd);
+    }
+    else if (hardware == "CPU")
+    {
+        CPU cpu = new(name, price, other);
+        hardwares.Add(cpu);
+    }
+    else if (hardware == "GPU")
+    {
+        GPU gpu = new(name, price, other);
+        hardwares.Add(gpu);
+    }
+}
